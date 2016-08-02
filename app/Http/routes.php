@@ -27,4 +27,6 @@ Route::get('/sms/send/{to}', function(\Nexmo\Client $nexmo, $to){
 Route::post('/sms/receive', function(\Nexmo\Client $nexmo){
     $message = \Nexmo\Message\InboundMessage::createFromGlobals();
     Log::info('got text: ' . $message->getBody());
+    $reply =$nexmo->message()->send($message->createReply('Laravel Auto-Reply FTW!'));
+    Log::info('sent reply: ' . $reply['message-id']);
 });
