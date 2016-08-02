@@ -23,3 +23,6 @@ Route::get('/sms/send/{to}', function(\Nexmo\Client $nexmo, $to){
     ]);
     Log::info('sent message: ' . $message['message-id']);
 });
+
+Route::post('/sms/receive', function(\Nexmo\Client $nexmo){
+});
