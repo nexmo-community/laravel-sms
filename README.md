@@ -26,6 +26,12 @@ NEXMO_API_SECRET=YOUR_SECRET
 NEXMO_NUMBER=YOUR_NUMBER
 ```
 
+Set your application key to a random string:
+
+```sh
+php artisan key:generate
+```
+
 Start the Laravel application:
 
 ```sh
