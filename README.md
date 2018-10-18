@@ -62,4 +62,4 @@ For detailed instructions please see the tutorial.
 
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT).
+[MIT license](LICENSE).
