@@ -58,7 +58,7 @@ For detailed instructions please see the tutorial.
 
 ## Tutorial
 
-**TODO: Information and link to the tutorial**
+Published on Laravel News: [https://laravel-news.com/sending-receiving-sms-laravel-nexmo](https://laravel-news.com/sending-receiving-sms-laravel-nexmo)
 
 ## License
 
