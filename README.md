@@ -2,6 +2,8 @@
 
 A simple [Laravel](https://laravel.com/) web application that shows how to send and receive SMS using [Nexmo](https://www.nexmo.com).
 
+> For a more up-to-date version with WhatsApp and Laravel 7, try this: [https://github.com/nexmo-community/laravel-messages](https://github.com/nexmo-community/laravel-messages)
+
 ## Prerequisites
 
 * A [free Nexmo account](https://dashboard.nexmo.com/sign-up)
